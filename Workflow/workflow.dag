@@ -1,0 +1,13 @@
+# HTCondor dag file - workflow.dag
+
+# Define the jobs with paths
+JOB A /home/ubuntu/Project7008/code/pre-processing/pre-processing.sub
+JOB B /home/ubuntu/Project7008/code/EDA/EDA_train/EDA_train.sub
+JOB C /home/ubuntu/Project7008/code/EDA/EDA_test/EDA_test.sub
+JOB D /home/ubuntu/Project7008/code/post-processing/post-processing.sub
+JOB E /home/ubuntu/Project7008/code/Model/model.sub
+
+# Define dependencies
+PARENT A CHILD B C
+PARENT B C CHILD D
+PARENT D CHILD E

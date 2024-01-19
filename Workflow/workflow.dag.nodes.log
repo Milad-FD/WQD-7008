@@ -1,0 +1,377 @@
+000 (1170.000.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.001.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.002.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.003.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.004.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.005.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.006.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+000 (1170.007.000) 2024-01-18 09:44:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: A
+...
+001 (1170.000.000) 2024-01-18 09:44:23 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_1@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2000"
+	Cpus = 1
+	Disk = 4260
+	Memory = 2048
+...
+001 (1170.002.000) 2024-01-18 09:44:23 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_2@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2001"
+	Cpus = 1
+	Disk = 4260
+	Memory = 2048
+...
+001 (1170.001.000) 2024-01-18 09:44:23 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_1@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1866"
+	Cpus = 1
+	Disk = 5099
+	Memory = 2048
+...
+001 (1170.003.000) 2024-01-18 09:44:23 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_2@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1867"
+	Cpus = 1
+	Disk = 5099
+	Memory = 2048
+...
+005 (1170.002.000) 2024-01-18 09:44:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	639  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	639  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       15        1      4260 
+	   Memory (MB)          :        7     2048      2048 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:25Z with exit-code 0.
+...
+005 (1170.001.000) 2024-01-18 09:44:26 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	639  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	639  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       15        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        3                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:26Z with exit-code 0.
+...
+005 (1170.000.000) 2024-01-18 09:44:26 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	713  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	713  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16        1      4260 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        3                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:26Z with exit-code 0.
+...
+001 (1170.004.000) 2024-01-18 09:44:26 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_2@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2010"
+	Cpus = 1
+	Disk = 4260
+	Memory = 2048
+...
+001 (1170.005.000) 2024-01-18 09:44:27 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_1@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1876"
+	Cpus = 1
+	Disk = 5099
+	Memory = 2048
+...
+001 (1170.006.000) 2024-01-18 09:44:27 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_1@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2014"
+	Cpus = 1
+	Disk = 4260
+	Memory = 2048
+...
+005 (1170.005.000) 2024-01-18 09:44:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	641  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	641  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        1                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:28Z with exit-code 0.
+...
+005 (1170.004.000) 2024-01-18 09:44:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	641  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	641  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16        1      4260 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:28Z with exit-code 0.
+...
+005 (1170.003.000) 2024-01-18 09:44:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	639  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	639  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       15        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:28Z with exit-code 0.
+...
+001 (1170.007.000) 2024-01-18 09:44:29 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_1@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1881"
+	Cpus = 1
+	Disk = 5099
+	Memory = 2048
+...
+005 (1170.006.000) 2024-01-18 09:44:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	641  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	641  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16        1      4260 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        6                    
+	   TimeSlotBusy (s)     :        7                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:33Z with exit-code 0.
+...
+005 (1170.007.000) 2024-01-18 09:44:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	641  -  Run Bytes Sent By Job
+	372  -  Run Bytes Received By Job
+	641  -  Total Bytes Sent By Job
+	372  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :        6                    
+	   TimeSlotBusy (s)     :        7                    
+
+	Job terminated of its own accord at 2024-01-18T09:44:35Z with exit-code 0.
+...
+000 (1171.000.000) 2024-01-18 09:44:43 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: B
+...
+000 (1172.000.000) 2024-01-18 09:44:43 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: C
+...
+001 (1171.000.000) 2024-01-18 09:49:44 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_1@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2037"
+	Cpus = 2
+	Disk = 4260
+	Memory = 2048
+...
+001 (1172.000.000) 2024-01-18 09:49:44 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_1@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1919"
+	Cpus = 2
+	Disk = 5099
+	Memory = 2048
+...
+005 (1172.000.000) 2024-01-18 09:50:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1469  -  Run Bytes Sent By Job
+	349  -  Run Bytes Received By Job
+	1469  -  Total Bytes Sent By Job
+	349  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       16        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :       27                    
+	   TimeSlotBusy (s)     :       28                    
+
+	Job terminated of its own accord at 2024-01-18T09:50:11Z with exit-code 0.
+...
+005 (1171.000.000) 2024-01-18 09:50:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1485  -  Run Bytes Sent By Job
+	352  -  Run Bytes Received By Job
+	1485  -  Total Bytes Sent By Job
+	352  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       16        1      4260 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :       39                    
+	   TimeSlotBusy (s)     :       40                    
+
+	Job terminated of its own accord at 2024-01-18T09:50:23Z with exit-code 0.
+...
+000 (1173.000.000) 2024-01-18 09:50:33 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: D
+...
+000 (1173.001.000) 2024-01-18 09:50:33 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: D
+...
+001 (1173.000.000) 2024-01-18 09:50:34 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_1@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2044"
+	Cpus = 2
+	Disk = 4260
+	Memory = 2048
+...
+001 (1173.001.000) 2024-01-18 09:50:34 Job executing on host: <172.31.57.29:9618?addrs=172.31.57.29-9618&alias=ip-172-31-57-29.ec2.internal&noUDP&sock=startd_454_fc16>
+	SlotName: slot1_1@ip-172-31-57-29.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_1937"
+	Cpus = 2
+	Disk = 5099
+	Memory = 2048
+...
+005 (1173.001.000) 2024-01-18 09:50:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	175  -  Run Bytes Sent By Job
+	366  -  Run Bytes Received By Job
+	175  -  Total Bytes Sent By Job
+	366  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       15        1      5099 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :       10                    
+	   TimeSlotBusy (s)     :       11                    
+
+	Job terminated of its own accord at 2024-01-18T09:50:44Z with exit-code 0.
+...
+005 (1173.000.000) 2024-01-18 09:50:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	159  -  Run Bytes Sent By Job
+	366  -  Run Bytes Received By Job
+	159  -  Total Bytes Sent By Job
+	366  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        2         2 
+	   Disk (KB)            :       16        1      4260 
+	   Memory (MB)          :        1     2048      2048 
+	   TimeExecute (s)      :       19                    
+	   TimeSlotBusy (s)     :       20                    
+
+	Job terminated of its own accord at 2024-01-18T09:50:53Z with exit-code 0.
+...
+000 (1174.000.000) 2024-01-18 09:51:03 Job submitted from host: <172.31.90.47:9618?addrs=172.31.90.47-9618&alias=ip-172-31-90-47.ec2.internal&noUDP&sock=schedd_429_d638>
+    DAG Node: E
+...
+001 (1174.000.000) 2024-01-18 09:51:04 Job executing on host: <172.31.30.163:9618?addrs=172.31.30.163-9618&alias=ip-172-31-30-163.ec2.internal&noUDP&sock=startd_458_ba77>
+	SlotName: slot1_1@ip-172-31-30-163.ec2.internal
+	CondorScratchDir = "/var/lib/condor/execute/dir_2054"
+	Cpus = 2
+	Disk = 4260
+	Memory = 2048
+...
+005 (1174.000.000) 2024-01-18 09:52:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1540  -  Run Bytes Sent By Job
+	336  -  Run Bytes Received By Job
+	1540  -  Total Bytes Sent By Job
+	336  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        2         2 
+	   Disk (KB)            :    17           1      4260 
+	   Memory (MB)          :     1        2048      2048 
+	   TimeExecute (s)      :    83                       
+	   TimeSlotBusy (s)     :    84                       
+
+	Job terminated of its own accord at 2024-01-18T09:52:27Z with exit-code 0.
+...

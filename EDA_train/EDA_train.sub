@@ -1,0 +1,17 @@
+# HTCondor submit file - EDA_train.sub
+
+universe = vanilla
+executable = /home/ubuntu/Project7008/code/EDA/EDA_train/EDA_train.sh
+
+arguments = "$(Process)"
+
+output     = /home/ubuntu/Project7008/code/out/out_EDA_train_$(Process).out
+error      = /home/ubuntu/Project7008/code/err/err_EDA_train_$(Process).err
+log        = /home/ubuntu/Project7008/code/log/log_EDA_train_$(Process).log
+
+request_cpus = 2
+request_memory = 2048
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+queue 1
